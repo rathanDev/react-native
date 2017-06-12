@@ -1,0 +1,5 @@
+
+react-native init banana
+
+adb shell input keyevent 82		(to reload)
+
