@@ -24,12 +24,16 @@
 
 import React from 'react'
 
-import List from './List'
+// import List from './List'
+import Inputs from './Inputs'
 
 const Home = () => {
     return (
-        <List/>
+        // <List/>
+        <Inputs/>
     )
 }
 
 export default Home
+
+
