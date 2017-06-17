@@ -5,10 +5,12 @@ import {Text, View} from 'react-native'
 // import MapViewExample from './MapViewExample'
 
 // import Bananas from './Bananas'
-
 //import LotsOfGreetings from './LotsOfGreetings'
-
-import BlinkApp from './BlinkApp'
+// import BlinkApp from './BlinkApp'
+// import LotsOfStyles from './LotsOfStyles'
+// import FixedDimensionBasics from './FixedDimensionsBasics'
+// import FlexDimensionBasics from './FlexDimensionsBasics'
+import PizzaTranslator from './PizzaTranslator'
 
 class Home extends Component {
 
@@ -21,7 +23,8 @@ class Home extends Component {
     }
 
     render() {
-        return(
+        return (
+
             // <View>
             //     <Text>
             //         {this.state.myState}
@@ -29,12 +32,14 @@ class Home extends Component {
             // </View>
 
             // <MapViewExample/>
-
             //<Bananas></Bananas>
-
             // <LotsOfGreetings/>
+            //<BlinkApp/>
+            // <LotsOfStyles></LotsOfStyles>
+            // <FixedDimensionBasics/>
+            // <FlexDimensionBasics/>
 
-            <BlinkApp/>
+            <PizzaTranslator/>
         )
     }
 

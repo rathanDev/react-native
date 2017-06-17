@@ -9,10 +9,6 @@ var _react2 = babelHelpers.interopRequireDefault(_react);
 
 var _reactNative = require('react-native');
 
-var _BlinkApp = require('./BlinkApp');
-
-var _BlinkApp2 = babelHelpers.interopRequireDefault(_BlinkApp);
-
 var Home = function (_Component) {
     babelHelpers.inherits(Home, _Component);
 
@@ -30,12 +26,64 @@ var Home = function (_Component) {
     babelHelpers.createClass(Home, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(_BlinkApp2.default, {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 37
-                }
-            });
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: styles.container, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 27
+                    }
+                },
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 28
+                        }
+                    },
+                    'Open up App.js to start working on your app!'
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 29
+                        }
+                    },
+                    'Changes you make will automatically reload.'
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 30
+                        }
+                    },
+                    'Shake your phone to open the developer menu.'
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 31
+                        }
+                    },
+                    'Change Change'
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 32
+                        }
+                    },
+                    'Another change'
+                )
+            );
         }
     }]);
     return Home;
