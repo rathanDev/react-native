@@ -10,7 +10,8 @@ import {Text, View} from 'react-native'
 // import LotsOfStyles from './LotsOfStyles'
 // import FixedDimensionBasics from './FixedDimensionsBasics'
 // import FlexDimensionBasics from './FlexDimensionsBasics'
-import PizzaTranslator from './PizzaTranslator'
+// import PizzaTranslator from './PizzaTranslator'
+import ButtonBasics from './ButtonBasics'
 
 class Home extends Component {
 
@@ -39,7 +40,8 @@ class Home extends Component {
             // <FixedDimensionBasics/>
             // <FlexDimensionBasics/>
 
-            <PizzaTranslator/>
+            //<PizzaTranslator/>
+            <ButtonBasics/>
         )
     }
 

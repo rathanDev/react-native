@@ -3,8 +3,8 @@ import {Text, TextInput, View} from 'react-native'
 
 export default class PizzaTranslator extends Component {
 
-    constructor(props) {
-        super(props)
+    constructor() {
+        super()
         this.state = {text: ''}
     }
 
@@ -19,7 +19,7 @@ export default class PizzaTranslator extends Component {
                     onChangeText={(text) => this.setState({text})}/>
 
                 <Text style={{padding:10, fontSize:42}}>
-                    {this.state.text.split(' ').map((word) => word && '^^').join(' ')}
+                    {this.state.text.split(' ').map((word) => word + '^^').join(' ')}
                 </Text>
 
             </View>

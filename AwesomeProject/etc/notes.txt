@@ -12,3 +12,9 @@ npm start
 
 Installed 'expo' in mobile
 
+
+
+
+
+Button      Touchables  -   captures tapping gestures
+
