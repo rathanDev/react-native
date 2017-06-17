@@ -9,47 +9,33 @@ var _react2 = babelHelpers.interopRequireDefault(_react);
 
 var _reactNative = require('react-native');
 
+var _BlinkApp = require('./BlinkApp');
+
+var _BlinkApp2 = babelHelpers.interopRequireDefault(_BlinkApp);
+
 var Home = function (_Component) {
     babelHelpers.inherits(Home, _Component);
 
     function Home() {
-        var _ref;
-
-        var _temp, _this, _ret;
-
         babelHelpers.classCallCheck(this, Home);
 
-        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-            args[_key] = arguments[_key];
-        }
+        var _this = babelHelpers.possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this));
 
-        return _ret = (_temp = (_this = babelHelpers.possibleConstructorReturn(this, (_ref = Home.__proto__ || Object.getPrototypeOf(Home)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+        _this.state = {
             myState: "This is my state at Home"
-        }, _temp), babelHelpers.possibleConstructorReturn(_this, _ret);
+        };
+        return _this;
     }
 
     babelHelpers.createClass(Home, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(
-                _reactNative.View,
-                {
-                    __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 12
-                    }
-                },
-                _react2.default.createElement(
-                    _reactNative.Text,
-                    {
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 13
-                        }
-                    },
-                    this.state.myState
-                )
-            );
+            return _react2.default.createElement(_BlinkApp2.default, {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 37
+                }
+            });
         }
     }]);
     return Home;

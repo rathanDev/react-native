@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, MapView} from 'react-native';
 
 import Home from './src/components/Home';
 
@@ -11,7 +11,7 @@ export default class App extends Component {
       //   <Text>Changes you make will automatically reload.</Text>
       //   <Text>Shake your phone to open the developer menu.</Text>
       //   <Text>Change Change</Text>
-      //   <Text>Another change</Text>
+       //   <Text>Another change</Text>
       // </View>
 
         <View>
