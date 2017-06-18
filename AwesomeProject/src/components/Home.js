@@ -13,8 +13,9 @@ import {Text, View} from 'react-native'
 // import PizzaTranslator from './PizzaTranslator'
 // import ButtonBasics from './ButtonBasics'
 // import FlatListBasics from './FlatListBasics'
-import SectionListBasics from './SectionListBasics'
-import Movies from './Movies'
+//import SectionListBasics from './SectionListBasics'
+// import Movies from './Movies'
+import HomeContainer from './HomeContainer'
 
 class Home extends Component {
 
@@ -47,7 +48,9 @@ class Home extends Component {
             //<ButtonBasics/>
             // <FlatListBasics/>
             // <SectionListBasics/>
-            <Movies/>
+            // <Movies/>
+
+            <HomeContainer/>
         )
     }
 

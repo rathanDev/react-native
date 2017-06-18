@@ -21,4 +21,8 @@ Button      Touchables  -   captures tapping gestures
 FlatList    data, renderItem
 
 Networking  Fetch   inherently asynchronous
+            WebSockets  a protocol which provides full-duplex communication channels over a single TCP connection
+
+
+
 
