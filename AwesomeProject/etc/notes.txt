@@ -18,3 +18,7 @@ Installed 'expo' in mobile
 
 Button      Touchables  -   captures tapping gestures
 
+FlatList    data, renderItem
+
+Networking  Fetch   inherently asynchronous
+

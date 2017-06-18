@@ -11,7 +11,8 @@ import {Text, View} from 'react-native'
 // import FixedDimensionBasics from './FixedDimensionsBasics'
 // import FlexDimensionBasics from './FlexDimensionsBasics'
 // import PizzaTranslator from './PizzaTranslator'
-import ButtonBasics from './ButtonBasics'
+// import ButtonBasics from './ButtonBasics'
+import FlatListBasics from './FlatListBasics'
 
 class Home extends Component {
 
@@ -41,7 +42,8 @@ class Home extends Component {
             // <FlexDimensionBasics/>
 
             //<PizzaTranslator/>
-            <ButtonBasics/>
+            //<ButtonBasics/>
+            <FlatListBasics/>
         )
     }
 
